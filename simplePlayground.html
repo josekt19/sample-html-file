@@ -53,17 +53,17 @@
 <body>
     <!-- This section is for Text examples -->
     <section>
-        <h1>This car have 5 stars rating on gncap</h1>
+        <h1>This car have 5 stars rating on GNCAP</h1>
         
 
         <div class="product">
             <img src="images/sample-image.jpg" alt="Product Image" title="Product model Ib874" />
-            <h2>Tesla Ib874</h2>
+            <h2>Model: Tesla IB874 </h2>
             
             <p>
-                This car uses the best cutting-edge technology ever seen. <br>
-                From <a href="https://en.wikipedia.org/wiki/Tesla_Autopilot" target="_blank">autopilot</a> to almost
-                unlimited electric battery for clean, fast and <a href="https://en.wikipedia.org/wiki/Self-driving_car" target="_blank">autonomous driving</a> 
+                This car uses the best <b>cutting-edge</b> technology ever seen. <br>
+                From <a href="https://en.wikipedia.org/wiki/Tesla_Autopilot" target="_blank"><b>autopilot</b></a> to almost
+                <b>unlimited</b> electric battery for <b>clean</b>, fast and <a href="https://en.wikipedia.org/wiki/Self-driving_car" target="_blank">autonomous driving</a> 
             </p>
             <p>
                 Before: <span class="before-price">$999</span>
@@ -72,6 +72,24 @@
                 Now: <span class="current-price">$800</span>
             </p>
             <button>Buy now</button>
+        </div>
+
+        <br>
+
+        <div class="product">
+            <img src="images/sample-image.jpg" alt="Product Image" Title="Product model IH125" />
+            <h2>Model: Tesla IH125</h2>
+
+            <p> This is a smaller version of the <b>IB874</b> but with almost the same capabilities.</p>
+            <p>Before: <span class="before-price">$500</span></p>
+            <p> 
+            Current Price:<span class="current-price">$400</span> 
+        </p>
+
+
+
+
+
         </div>
     </section>
 
@@ -82,23 +100,22 @@
         <h1>List</h1>
         <h3>Calls procedure checklist</h3>
         <ol>
-            <li><br>Answer</b> call</li>
-            <li><b>Ask</b> for insurance</li>
+            <li><b>Answer</b> call</li>
+            <li><b>Ask</b> for <b>insurance</b></li>
             <lr><b>Ask</b> for injuries</li>
             <li><b>Find</b> a doctor nearby</li>
-            <li>
-                Complaint procedure
-                <ul>
+            <li><b>Complaint procedure</b>
+                                <ol>
                     <li>Fill complaint form</li>
-                    <li>Call boss</li>
                     <li>Hangout</li>
-                </ul>
+                    <li>Call boss</li>
+                </ol>
             </li>
         </ol>
         <h3>TODO List</h3>
         <ul>
             <li>Call Mom</li>
-            <lt>Buy tickets</lt>
+            <li>Buy tickets</lt>
             <li>Do homework</li>
         </ul>
     </section>
@@ -111,7 +128,7 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <ts>Company</ts>
+                    <th>Company</th>
                     <th>E-Mail</th>
                     <th>Phone</th>
                 </tr>
@@ -136,7 +153,7 @@
         <table class="colors-table">
             <thead>
                 <tr>
-                    <th colspan="4">CSS Colors</th>
+                    <th colspan="5">CSS Colors</th>
                 </tr>
             </thead>
             <tbody>
@@ -289,7 +306,7 @@
                 <tr>
                     <td style="background:khaki;">&nbsp;</td>
                     <td>khaki</td>
-                    <tl>#F0E68C</tl>
+                    <td>#F0E68C</td>
                     <td>rgb(240,230,140)</td>
                 </tr>
                 <tr>
@@ -314,7 +331,7 @@
                     <td style="background:darkslateblue;">&nbsp;</td>
                     <td>darkslateblue</td>
                     <td>#483D8B</td>
-                    <tl>rgb(72,61,139)</tl>
+                    <td>rgb(72,61,139)</td>
                 </tr>
             </tbody>
         </table>
@@ -331,14 +348,14 @@
             <input type="email" id="email" placeholder="Enter your email address">
             <br>
             <label for="mood">Your mood:</label>
-            <selection required id="mood">
+            <select required id="mood">
                 <option value="">--Please choose an option--</option>
                 <option value="happy">Happy</option>
                 <option value="sad">Sad</option>
-            </selection>
+            </select>
             <br>
             <label for="message">Message:</label>
-            <areatext id="message" placeholder="What's on your mind?"></areatext>
+            <textarea id="message" placeholder="What's on your mind?"></textarea>
             <br>
             <button type="submit">Send message</button>
         </form>
